@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+    <form action="#" method="post">
+        <h1>Registration Form</h1>
+        <div>
+            <label for="first_name">First Name: *</label>
+            <input type="text" name="first_name" id="first_name" required>
+        </div>
+        <br>
+        <div>
+            <label for="last_name">Last Name: *</label>
+            <input type="text" name="last_name" id="last_name" required>
+        </div>
+        <br>
+        <div>
+            <label for="email_address">Email Address: *</label>
+            <input type="email" name="email_address" id="email_address" required>
+        </div>
+        <br>
+        <div>
+            <label for="password">Password: *</label>
+            <input type="password" name="password" id="password" required>
+        </div>
+        <br>
+        <div>
+            <label for="confirm_password">Confirm Password: *</label>
+            <input type="password" name="confirm_password" id="confirm_password" required>
+        </div>
+        <br>
+        <div>
+            <label for="dob">Birthday:&nbsp;</label>
+            <input type="date" name="dob" id="dob">
+        </div>
+        <div>
+            <p>Gender Identity:</p>
+            <input type="radio" name="gender" value="male" id="male">
+            <label for="male">Male</label>
+            <input type="radio" name="gender" value="female" id="female">
+            <label for="female">Female</label>
+            <input type="radio" name="gender" value="non_binary" id="non_binary">
+            <label for="non_binary">Non-binary</label>
+            <input type="radio" name="gender" value="pass"id="pass">
+            <label for="pass">I prefer not to answer</label>
+        </div>
+        <div>
+            <p>A short description about myself:</p>
+            <textarea name="about_me" id="about_me" cols="30" rows="5"></textarea>
+        </div>
+        <br>
+        <div>
+            <label for="favorite_language">Favorite Language:&nbsp;</label>
+            <select name="favorite_language" id="favorite_language">
+                <option value="javascript">Javascript</option>
+                <option value="python">Python</option>
+                <option value="java">Java</option>
+                <option value="c++">C++</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <input type="checkbox" name="email_list" id="email_list">
+            <label for="email_list">Yes, I would like to receive periodic email updates</label>
+        </div>
+        <br>
+        <input type="submit" value="Create Account">
+        <p>* Indicates a required field</p>
+    </form>
+
+
+
+</body>
+</html>
