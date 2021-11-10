@@ -1,0 +1,35 @@
+h1{
+    background-color: black;
+    color: white;
+    padding: 3px 0px 0px 15px;
+    margin-bottom: 5px;
+    margin-top: 15px;
+    font-family: Calibri;
+    font-weight: bolder;
+}
+
+h1>span{
+    color: turquoise;
+}
+
+h2{
+    background-color: rebeccapurple;
+    color: white;
+    padding: 3px 0px 0px 0px;
+    margin: 5px auto;
+    text-align: center;
+    font-family: Calibri;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+h3{
+    background-color: rgb(166, 184, 250);
+    color: rebeccapurple;
+    padding: 3px 15px 3px 0px;
+    margin: 8px auto;
+    font-family: Calibri;
+    text-align: right;
+    text-decoration: underline;
+    font-weight: lighter;
+}
