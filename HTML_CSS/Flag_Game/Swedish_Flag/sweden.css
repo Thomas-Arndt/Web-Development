@@ -1,0 +1,30 @@
+.flag{
+    width: 600px;
+    height: 400px;
+    background-color: yellow;
+}
+
+.smallbox{
+    width: 150px;
+    height: 150px;
+    background-color: blue;
+}
+
+.largebox{
+    width: 350px;
+    height: 150px;
+    background-color: blue;
+    margin-left: 100px;
+}
+
+
+.top{
+    display: flex;
+    flex-direction: row;
+}
+
+.bottom{
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+}

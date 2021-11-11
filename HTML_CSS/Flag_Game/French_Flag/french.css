@@ -1,0 +1,25 @@
+
+body{
+    width: 600px;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+}
+
+.blue{
+    width: 200px;
+    height: 400px;
+    background-color: blue;
+}
+
+.white{
+    width: 200px;
+    height: 400px;
+    background-color: white;
+}
+
+.red{
+    width: 200px;
+    height: 400px;
+    background-color: red;
+}
