@@ -1,0 +1,30 @@
+.row{
+    color: white;
+    margin: 10px 0px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.col{
+    height: 30px;
+    background-color:cadetblue;
+    flex: 1;
+    padding-top: 10px;
+}
+
+.col-2{
+    height: 30px;
+    background-color: cadetblue;
+    flex: 2;
+    padding-top: 10px;
+}
+
+.col-3{
+    height: 30px;
+    background-color: cadetblue;
+    flex: 3;
+    padding-top: 10px;
+}
