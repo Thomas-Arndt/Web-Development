@@ -1,0 +1,41 @@
+body{
+    background-color: lightgray;
+}
+
+h1{
+    color: darkslategrey;
+    font-family: Helvetica;
+    text-align: center;
+    font-size: 44px;
+}
+
+img.octocat{
+    width: 200px;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 20px;
+    margin: 20px;
+}
+
+#row-one{
+    background-color: lightgreen;
+    justify-content: space-between;
+}
+
+#row-two{
+    background-color: palegoldenrod;
+    justify-content: space-evenly;
+}
+
+#row-three{
+    background-color: white;
+    justify-content: space-between;
+}
+
+.attribution{
+    text-align: center;
+}
