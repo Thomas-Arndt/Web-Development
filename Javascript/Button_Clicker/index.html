@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button Clicker</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="nav-bar">
+            <h1 class="nav-title">Dojonary</h1>
+            <input type="text" class="search" name="search" id="search" placeholder="Search">
+            <button class="login" onclick="login(this)">Login</button>
+        </div>
+        <div class="content">
+            <div class="col-2">
+                <div class="entry">
+                    <div class="col">
+                        <h2 class="center-text">ninja</h2>
+                        <p class="center-text normal-text"><em>noun</em></p>
+                        <p class="center-text">Plural: <em>ninjas</em></p>
+                        <button class="likes" onclick="alert('ninja was liked!')">13 likes</button>
+                    </div>
+                    <div class="col-2">
+                        <p class=definition>A practitioner skilled in the<br><a href="#">Japanese</a> art of <a href="#">ninjutsu</a></p>
+                    </div>
+                </div>
+                <div class="entry">
+                    <div class="col">
+                        <h2 class="center-text">ninja</h2>
+                        <p class="center-text"><em>noun</em></p>
+                        <p class="center-text">Plural: <em>ninjas</em></p>
+                        <button class="likes" onclick="alert('ninja was liked!')">37 likes</button>
+                    </div>
+                    <div class="col-2">
+                        <p class=definition>A <a href="#">programmer</a> who breaks<br>down problems with <a href="#">zen</a>-like focus</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="user-addition">
+                    <p class=you-define>Dojonary is<br>defined by <strong>YOU</strong></p>
+                    <button class="add-definition" onclick="add_definition(this)">Add definition</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

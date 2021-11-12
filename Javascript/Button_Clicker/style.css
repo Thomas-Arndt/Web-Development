@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Calibri, sans-serif;
+}
+
+.container{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 0px 10%;
+}
+
+.nav-bar{
+    width: 100%;
+    height: 50px;
+    background-color: darkgray;
+    display: flex;
+    flex-direction: row;
+    padding: 0px 15px;
+    justify-content: space-between;
+}
+
+.nav-title{
+    align-self: center;
+}
+
+.search{
+    width: 190px;
+    height: 22px;
+    align-self: center;
+    border: 1px solid black;
+}
+
+.login{
+    width: 60px;
+    height: 22px;
+    background-color: blue;
+    color: white;
+    border: 2px solid black;
+    box-shadow: 2px 2px 0px black;
+    align-self: center;
+    font-weight: bold;
+}
+
+.content{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex: column;
+    gap: 15px;
+}
+
+.entry{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex: column;
+    border: 2px solid black;
+    padding: 15px 10px 15px 0px;
+}
+
+.center-text{
+    text-align: center;
+}
+
+.likes{
+    width: 70px;
+    height: 27px;
+    background-color: #f9e85e;
+    border: 2px solid black;
+    box-shadow: 2px 2px 0px black;
+    align-self: center;
+    margin-top: 10px;
+}
+
+.definition{
+    width: fit-content;
+    height: fit-content;
+    margin: 15px 0px 0px 15px;
+}
+
+.user-addition{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    padding: 10px;
+    gap: 10px;
+}
+
+.you-define{
+    font-size: 20px;
+}
+
+.add-definition{
+    width: 100%;
+    height: 27px;
+    background-color: mediumseagreen;
+    border: 2px solid black;
+    font-size: 16px;
+}
+
+.col{
+    flex: 1;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+}
+
+.col-2{
+    flex: 2;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
