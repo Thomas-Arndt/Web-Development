@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Profile</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="nav-bar">
+            <h1 class="nav-title">Profile</h1>
+            <div class="nav">
+                <ul class="nav-options">
+                    <li><a href="#">Home</a></li>
+                    <li><a class="active" href="#">My Profile</a></li>
+                    <li><a href="#">Find Connections</a></li>
+                </ul>
+                <button class="signout">Sign Out</button>
+            </div>
+        </div>
+        <div class="content">
+            <div class="col-2">
+                <div class="card">
+                    <div class="card-head"></div>
+                    <div class="info">
+                        <img class="profile-picture" src="assets/img/jane-m.jpg" alt="Jane's profile picture">
+                        <h2 id="my-name">Jane Doe</h2>
+                        <div class="card-flex-row">
+                            <img class="info-icon" src="assets/icon/map-marker.png" alt="Map Marker">
+                            <h4>Seattle</h4>
+                        </div>
+                        <p class="info-text">Developer | Engineer | Problem Solver<br>Master of shadows and the Internet!</p>
+                        <div class="card-flex-row">
+                            <a href="#"><img class="info-icon" src="assets/icon/gear.png" alt="Gear Icon"></a>
+                            <a class="edit-profile" href="#" onclick="changeName('#my-name')">edit profile</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="education">
+                    <div class="education-head">
+                        <h2 class="education-title">Education</h2>
+                    </div>
+                    <div class="education-info">
+                        <h3>Coding Dojo - Full Stack Bootcamp</h3>
+                        <h4 class="gray-text">Dec 2019 - Mar 2020</h4>
+                        <p>Triple black belt in Python, MERN, and C#...</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="requests">
+                    <div class="connections-head">
+                        <h4 class="requests-number" id="request-count">2</h4>
+                        <h4 class="connections-title">Connection Requests</h4>
+                    </div>
+                    <div class="request-row" id="request-one">
+                        <div class="pic-name">
+                            <img class="connection-picture" src="assets/img/todd-s.jpg" alt="Todd's profile picture">
+                            <p class="connection-name">Todd E</p>
+                        </div>
+                        <div>
+                            <a href="#"><img class="accept-deny" onclick="accept('#request-one')" src="assets/icon/accept-circle.png" alt="Accept Request"></a>
+                            <a href="#"><img class="accept-deny" onclick="deny('#request-one')" src="assets/icon/close-circle.png" alt="Deny Request"></a>
+                        </div>
+                    </div>
+                    <div class="request-row" id="request-two">
+                        <div class="pic-name">
+                            <img class="connection-picture" src="assets/img/phil-s.jpg" alt="Phil's profile picture">
+                            <p class="connection-name">Phil K</p>
+                        </div>
+                        <div>
+                            <a href="#"><img class="accept-deny" onclick="accept('#request-two')" src="assets/icon/accept-circle.png" alt="Accept Request"></a>
+                            <a href="#"><img class="accept-deny" onclick="deny('#request-two')" src="assets/icon/close-circle.png" alt="Deny Request"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="connections">
+                    <div class="connections-head">
+                        <h4 class="connections-number" id="connections-count">500</h4>
+                        <h4 class="connections-title">Your Connections</h4>
+                    </div>
+                    <div class="connections-row">
+                        <img class="connection-picture" src="assets/img/adrien-s.jpg" alt="Adrien's profile picture">
+                        <p class="connection-name">Adrien D</p>
+                    </div>
+                    <div class="connections-row">
+                        <img class="connection-picture" src="assets/img/anne-s.jpg" alt="Anne's profile picture">
+                        <p class="connection-name">Anne J</p>
+                    </div>
+                    <div class="connections-row">
+                        <img class="connection-picture" src="assets/img/alayne-s.jpg" alt="Alayne's profile picture">
+                        <p class="connection-name">Alayne T</p>
+                    </div>
+                    <div class="connections-row">
+                        <img class="connection-picture" src="assets/img/arry-s.jpg" alt="Arry's profile picture">
+                        <p class="connection-name">Arry Y</p>
+                    </div>
+                </div>
+                <a class="view-more" href="#">View More</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
